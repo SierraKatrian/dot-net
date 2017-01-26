@@ -1,0 +1,24 @@
+﻿@model Assignment1.Models.Students
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Students</title>
+</head>
+<body>
+    <header>
+        <h1>Student Info</h1>
+    </header>
+    <main>
+        <P>Name: @Model.Name</P>
+        <p>Student #: @Model.StudentNum</p>
+        <p>Program of study: @Model.Program</p>
+    </main>
+</body>
+</html>
